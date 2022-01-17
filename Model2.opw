@@ -1,0 +1,21 @@
+[RESOURCES]
+Audition room
+Booth 1
+Booth 2
+[VARIABLES]
+Female booth.NumberOut
+Male booth.NumberOut
+Bangladeshi idol.NumberOut
+Male booth.WaitTime
+Female booth.VATime
+Dispose.NumberOut
+Male booth.VATime
+Female booth.NumberIn
+Audition.NumberIn
+Female booth.WaitTime
+Audition.WaitTime
+Decision.NumberOut True
+Decision.NumberOut False
+Male booth.NumberIn
+Audition.VATime
+Audition.NumberOut

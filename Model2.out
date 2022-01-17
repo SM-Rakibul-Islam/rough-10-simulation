@@ -1,0 +1,85 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Singing audition                                            Run execution date : 4/11/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 4/11/2021
+
+Replication ended at time      : 480.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Male booth.TotalTimePerEntity               .07116     (Insuf)    .03357     .09833          8    
+Male booth.VATimePerEntity                  .07116     (Insuf)    .03357     .09833          8    
+Audition.TotalTimePerEntity                 6.7658     (Insuf)    5.1167     12.139         20    
+Female booth.VATimePerEntity                .06478     (Insuf)    .04211     .09982         12    
+Audition.VATimePerEntity                    6.0772     (Insuf)    5.1167     6.9481         20    
+Male booth.WaitTimePerEntity                .00000     (Insuf)    .00000     .00000          8    
+Audition.WaitTimePerEntity                  .68863     (Insuf)    .00000     5.5694         20    
+Female booth.TotalTimePerEntity             .06478     (Insuf)    .04211     .09982         12    
+Female booth.WaitTimePerEntity              .00000     (Insuf)    .00000     .00000         12    
+People.VATime                               6.1445     (Insuf)    5.1659     6.9935         20    
+People.NVATime                              .00000     (Insuf)    .00000     .00000         20    
+People.WaitTime                             .68863     (Insuf)    .00000     5.5694         20    
+People.TranTime                             .00000     (Insuf)    .00000     .00000         20    
+People.OtherTime                            .00000     (Insuf)    .00000     .00000         20    
+People.TotalTime                            6.8332     (Insuf)    5.1659     12.183         20    
+Male booth.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          8    
+Audition.Queue.WaitingTime                  .68863     (Insuf)    .00000     5.5694         20    
+Female booth.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000         12    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+People.WIP                                  .28472     (Insuf)    .00000     2.0000     .00000    
+Audition room.NumberBusy                    .25322     (Insuf)    .00000     1.0000     .00000    
+Audition room.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Audition room.Utilization                   .25322     (Insuf)    .00000     1.0000     .00000    
+Booth 1.NumberBusy                          .00119     (Insuf)    .00000     1.0000     .00000    
+Booth 1.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Booth 1.Utilization                         .00119     (Insuf)    .00000     1.0000     .00000    
+Booth 2.NumberBusy                          .00162     (Insuf)    .00000     1.0000     .00000    
+Booth 2.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Booth 2.Utilization                         .00162     (Insuf)    .00000     1.0000     .00000    
+Male booth.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Audition.Queue.NumberInQueue                .02869     (Insuf)    .00000     1.0000     .00000    
+Female booth.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Female booth Number Out                     12.000    
+Male booth Number Out                       8.0000    
+Male booth Accum Wait Time                  .00000    
+Female booth Accum VA Time                  .77737    
+Male booth Accum VA Time                    .56924    
+Female booth Number In                      12.000    
+Audition Number In                          20.000    
+Female booth Accum Wait Time                .00000    
+Audition Accum Wait Time                    13.772    
+Male booth Number In                        8.0000    
+Audition Accum VA Time                      121.54    
+Audition Number Out                         20.000    
+People.NumberIn                             20.000    
+People.NumberOut                            20.000    
+Audition room.NumberSeized                  20.000    
+Audition room.ScheduledUtilization          .25322    
+Booth 1.NumberSeized                        8.0000    
+Booth 1.ScheduledUtilization                .00119    
+Booth 2.NumberSeized                        12.000    
+Booth 2.ScheduledUtilization                .00162    
+System.NumberOut                            20.000    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
